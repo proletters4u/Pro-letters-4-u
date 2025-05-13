@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pro Letters 4 U - Professional Letter Writing Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+      position: relative;
+    }
+    header::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.5);
+    }
+    header h1, header p {
+      position: relative;
+      z-index: 1;
+    }
+    header h1 {
+      font-size: 56px;
+      margin: 0 0 10px;
+    }
+    header p {
+      font-size: 22px;
+      margin: 0;
+    }
+    nav {
+      background: #2b6cb0;
+      text-align: center;
+      padding: 12px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 25px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #ffffff;
+    }
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 15px;
+    }
+    .hero p {
+      font-size: 18px;
+      color: #555;
+      max-width: 700px;
+      margin: auto;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 60px 20px;
+      background: url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+      background-attachment: fixed;
+    }
+    .service-card {
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin: 20px;
+      padding: 30px 25px;
+      width: 280px;
+      transition: transform 0.3s ease;
+      text-align: center;
+    }
+    .service-card:hover {
+      transform: translateY(-8px);
+    }
+    .service-card h3 {
+      margin-top: 10px;
+      color: #2b6cb0;
+      font-size: 20px;
+    }
+    .service-card p {
+      font-size: 15px;
+      color: #444;
+    }
+    .service-icon {
+      font-size: 40px;
+      margin-bottom: 10px;
+      color: #2b6cb0;
+    }
+    .contact {
+      background-color: #2b6cb0;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .contact h2 {
+      font-size: 32px;
+    }
+    .contact p {
+      font-size: 18px;
+    }
+    .contact a {
+      color: #bee3f8;
+      text-decoration: underline;
+    }
+    footer {
+      background: #1a365d;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .service-card {
+        width: 90%;
+      }
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+  <h1>Pro Letters 4 U</h1>
+  <p>Professional Letters for Every Subject – by Heather O'Donnell</p>
+</header>
+
+<nav>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+  <h2>Letters That Speak For You</h2>
+  <p>From resumes and proposals to court and school letters — every letter is crafted with care, clarity, and professionalism to represent your voice perfectly.</p>
+</section>
+
+<section id="services" class="services">
+  <div class="service-card">
+    <div class="service-icon"><i class="fas fa-briefcase"></i></div>
+    <h3>Resumes & Cover Letters</h3>
+    <p>Tailored to highlight your skills and help you stand out in today’s job market.</p>
+  </div>
+  <div class="service-card">
+    <div class="service-icon"><i class="fas fa-file-signature"></i></div>
+    <h3>Business Proposals</h3>
+    <p>Persuasive, clear, and professional proposals to get your ideas approved.</p>
+  </div>
+  <div class="service-card">
+    <div class="service-icon"><i class="fas fa-gavel"></i></div>
+    <h3>Court Letters</h3>
+    <p>Respectful and thoughtful letters for legal proceedings or character references.</p>
+  </div>
+  <div class="service-card">
+    <div class="service-icon"><i class="fas fa-university"></i></div>
+    <h3>School Letters</h3>
+    <p>Whether it's appeals, recommendations, or formal school communications, I’ve got you covered.</p>
+  </div>
+  <div class="service-card">
+    <div class="service-icon"><i class="fas fa-user-tie"></i></div>
+    <h3>Job Letters</h3>
+    <p>From resignation letters to professional references, each letter is carefully written.</p>
+  </div>
+  <div class="service-card">
+    <div class="service-icon"><i class="fas fa-feather-alt"></i></div>
+    <h3>Custom Requests</h3>
+    <p>No matter the subject, I’ll help you find the perfect words for your situation.</p>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Get in Touch</h2>
+  <p>Have a request or idea? I’d love to help craft your message.</p>
+  <p><strong>Email:</strong> <a href="mailto:proletters4u@gmail.com">proletters4u@gmail.com</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Pro Letters 4 U | Created by Heather O'Donnell</p>
+</footer>
+
+</body>
+</html>
